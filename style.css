@@ -1,6 +1,19 @@
 #movies img, #movie img{
     width:100%;
   }
+
+  #logo {
+    width: 5vw;
+    margin: 0 2em;
+    /* border: 1px solid white; */
+
+  }
+
+  .navbar-brand:hover {
+    background-color: aliceblue;
+    color: black;
+    border-radius: .5em;
+  }
   
   @media(min-width:960px){
     #movies .col-md-3 .well{
@@ -12,4 +25,3 @@
     }
   }
 
-  
